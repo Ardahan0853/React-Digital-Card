@@ -1,0 +1,98 @@
+
+.ben{
+    width: 20%;
+    margin: 0;
+}
+.name{
+    width: 100%;
+    text-align: center;
+    
+}
+.name-content{
+    width: 20%;
+    margin: 0 auto;
+    background-color: rgba(26, 27, 33, 1);
+    height: 20vh;
+    padding-top: 20px;
+    color: white;
+
+}.name-content > h3{
+    color: rgba(243, 191, 153, 1);
+}.name-content > h4{
+    font-size: 10px;
+    margin-top: 20px;
+}
+body{
+    background-color: rgba(35, 37, 44, 1);
+    margin: 3rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Inter, sans-serif;
+}
+
+.myButton{
+	background-color:white;
+	border-radius:5px;
+	cursor:pointer;
+	color:black;
+	font-weight:bold;
+	text-decoration:none;
+    width: 40%;
+    margin: -40px auto;
+    font-size: 100%;
+    height: 50px;
+    display: flex; justify-content: center; align-items: center;
+   
+}
+.myButton-blue{
+    background-color: rgba(32, 222, 235, 0.74);
+}
+@media screen and (max-width: 1200px) {
+    .myButton2 {
+      display: none;
+    }
+  }
+
+@media screen and (max-width: 1200px) {
+    .myButton {
+      display: none;
+    }
+  }
+.div-buttons{
+    width: 20%;
+    margin: 0 auto;
+    display: flex;
+    background-color: rgba(26, 27, 33, 1);
+}
+
+.middle-text{
+    width: 20%;
+    margin: 0 auto;
+    background-color: rgba(26, 27, 33, 1);
+    padding-top: 20px;
+    text-align: left;
+    
+}
+.middle-text-about{
+    padding: 30px;
+    color: white;
+}
+.middle-text-interest{
+    padding: 30px;
+    color: white;
+}
+.footer{
+    height: 9vh;
+    width: 20%;
+    margin: 0 auto;
+    padding-top: 20px;
+    background-color: rgba(22, 22, 25, 1);
+    display: flex;
+    
+    
+}.footer >a{
+    color: white;
+    margin: 8% auto;
+
+    
+}
